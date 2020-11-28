@@ -154,7 +154,7 @@ $('.testimonial-grid').slick({
 });
 
 $('.pricing-grid').slick({
-  slidesToShow: 3,
+  slidesToShow: 2,
   slidesToScroll: 1,
 
   prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-angle-left"></i></button>',
@@ -164,13 +164,15 @@ $('.pricing-grid').slick({
     {
       breakpoint: 981,
       settings: {
-        slidesToShow: 2
+        slidesToShow: 2,
+        slidesToScroll: 1
       }
     },
     {
       breakpoint: 768,
       settings: {
-        slidesToShow: 1
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
     }
     
