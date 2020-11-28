@@ -201,7 +201,7 @@
     }
 
     .pricing-grid {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         padding: 0 40px;
     }
 
@@ -493,7 +493,7 @@
     }
 
     .pricing-grid__col {
-        padding: 0px;
+        padding: 0;
     }
     
     .slick-track {
