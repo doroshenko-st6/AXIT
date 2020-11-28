@@ -201,7 +201,7 @@
     }
 
     .pricing-grid {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         padding: 0 40px;
     }
 
