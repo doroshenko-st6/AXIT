@@ -685,6 +685,10 @@ html {
   padding: 105px 0;
 }
 
+.slick-slide:focus {
+  outline: none;
+}
+
 .slick-list {
   width: 100%;
 }
